@@ -1,28 +1,26 @@
+import avgAccessor.AvgDispenser;
 import gradeTracker.GradeMediator;
 import gradeTracker.LetterGradeMediator;
 import studentRoster.GradeTracker;
+import studentRoster.Roster;
 import studentRoster.Student;
 
 public class Main {
 
     public static void main(String[] args) {
-        GradeTracker gradeTracker = new GradeTracker();
-        Student student = new Student("Derek");
-        GradeMediator gradeMediator = new LetterGradeMediator();
-        gradeMediator.setGradeTracker(gradeTracker);
-        gradeMediator.setStudent(student);
-        student.setGradeMediator(gradeMediator);
-        gradeTracker.setGradeMediator(gradeMediator);
+        Student derek = new Student("Derek");
+        Student mark = new Student("Mark");
+        derek.addAssignmentScore(90.0);
+        mark.addExamScore(80.0);
+        Roster se = new Roster("Software Engineering", "5800");
+        se.addStudent(derek);
+        se.addStudent(mark);
 
-        student.addAssignmentScore(90.0);
-        student.addAssignmentScore(90.0);
-        student.addAssignmentScore(90.0);
-        student.addExamScore(90.0);
-        student.addExamScore(90.0);
+        int cnt = 1;
+        AvgDispenser ad = se.avgDispenser();
+        while (ad.hasNextAvg()) {
+            System.out.println("Student " + cnt++ + " has average: " + ad.nextAvg());
+        }
 
-        System.out.println("Grade for " + student.getName() + " is: " + gradeTracker.getGrade());
-
-        student.addAssignmentScore(65.0);
-        System.out.println("Grade for " + student.getName() + " is: " + gradeTracker.getGrade());
     }
 }

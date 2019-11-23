@@ -28,12 +28,12 @@ public class Student {
 
     public void addAssignmentScore(double as) {
         assignments.add(as);
-        gradeMediator.updateGrade(getClassAvg("A4E6"));
+        // gradeMediator.updateGrade(getClassAvg("A4E6"));
     }
 
     public void addExamScore(double es) {
         exams.add(es);
-        gradeMediator.updateGrade(getClassAvg("A4E6"));
+        // gradeMediator.updateGrade(getClassAvg("A4E6"));
     }
 
     public double getClassAvg(String method) {

@@ -20,12 +20,15 @@ public class AvgCalculatorA4E6 implements AvgCalculator {
         for (double as : assignments) {
             sum += as;
         }
-        avg = sum / assignments.size() * 0.4;
+        if (assignments.size() > 0)
+            avg = sum / assignments.size() * 0.4;
+
         sum = 0;
         for (double es : exams) {
             sum += es;
         }
-        avg += sum / exams.size() * 0.6;
+        if (exams.size() > 0)
+            avg += sum / exams.size() * 0.6;
         return avg;
     }
 }

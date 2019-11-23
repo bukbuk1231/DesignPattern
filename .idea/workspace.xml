@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5508121-758b-4227-b13c-2b6e814f2e45" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gradeTracker/GradeMediator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gradeTracker/LetterGradeMediator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/studentRoster/GradeTracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/avgAccessor/AvgDispenser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AvgCaclulatorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/avgCalculator/AvgCaclulatorFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AvgCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/avgCalculator/AvgCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AvgCalculatorA4E6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/avgCalculator/AvgCalculatorA4E6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AvgCalculatorA4E6DropLowest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/avgCalculator/AvgCalculatorA4E6DropLowest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Roster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/studentRoster/Roster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/studentRoster/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/avgCalculator/AvgCalculatorA4E6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/avgCalculator/AvgCalculatorA4E6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/studentRoster/Roster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/studentRoster/Roster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/studentRoster/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/studentRoster/Student.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +73,8 @@
       <option name="presentableId" value="Default" />
       <updated>1574475155077</updated>
       <workItem from="1574475160931" duration="3961000" />
-      <workItem from="1574495250810" duration="2004000" />
+      <workItem from="1574495250810" duration="2325000" />
+      <workItem from="1574541728241" duration="1886000" />
     </task>
     <servers />
   </component>
@@ -97,5 +93,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/studentRoster/Roster.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
