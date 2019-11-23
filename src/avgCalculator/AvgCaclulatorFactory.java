@@ -1,3 +1,5 @@
+package avgCalculator;
+
 public class AvgCaclulatorFactory {
 
     public static AvgCalculator getAvgCalculator(String method) {

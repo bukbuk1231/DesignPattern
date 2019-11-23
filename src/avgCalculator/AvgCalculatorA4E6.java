@@ -1,8 +1,11 @@
+package avgCalculator;
+
 import java.util.List;
 
-public class AvgCalculatorA4E6DropLowest implements AvgCalculator {
+public class AvgCalculatorA4E6 implements AvgCalculator {
 
-    private List<Double> assignments, exams;
+    private List<Double> assignments;
+    private List<Double> exams;
 
     public void setAssignments(List<Double> assignments) {
         this.assignments = assignments;
@@ -13,16 +16,11 @@ public class AvgCalculatorA4E6DropLowest implements AvgCalculator {
     }
 
     public double calculateAvg() {
-        double sum = 0, avg = 0, lowest = Double.MAX_VALUE;
+        double sum = 0, avg = 0;
         for (double as : assignments) {
             sum += as;
-            lowest = Math.min(lowest, as);
         }
-        if (assignments.size() >= 2)
-            avg = (sum - lowest) / (assignments.size() - 1) * 0.4;
-        else
-            avg = sum / assignments.size();
-
+        avg = sum / assignments.size() * 0.4;
         sum = 0;
         for (double es : exams) {
             sum += es;

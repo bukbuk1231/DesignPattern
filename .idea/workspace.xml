@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5508121-758b-4227-b13c-2b6e814f2e45" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AvgCaclulatorFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AvgCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AvgCalculatorA4E6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AvgCalculatorA4E6DropLowest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gradeTracker/GradeMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gradeTracker/LetterGradeMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/studentRoster/GradeTracker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AvgCaclulatorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/avgCalculator/AvgCaclulatorFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AvgCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/avgCalculator/AvgCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AvgCalculatorA4E6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/avgCalculator/AvgCalculatorA4E6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AvgCalculatorA4E6DropLowest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/avgCalculator/AvgCalculatorA4E6DropLowest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Roster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Roster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Roster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/studentRoster/Roster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/studentRoster/Student.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +77,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574475155077</updated>
-      <workItem from="1574475160931" duration="2658000" />
+      <workItem from="1574475160931" duration="3961000" />
+      <workItem from="1574495250810" duration="2004000" />
     </task>
     <servers />
   </component>
@@ -86,7 +90,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

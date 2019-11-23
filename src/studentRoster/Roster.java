@@ -1,3 +1,5 @@
+package studentRoster;
+
 import java.util.*;
 
 public class Roster {

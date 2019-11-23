@@ -1,3 +1,5 @@
+package avgCalculator;
+
 import java.util.List;
 
 public interface AvgCalculator {
