@@ -22,14 +22,15 @@ public class AvgCalculatorA4E6DropLowest implements AvgCalculator {
         }
         if (assignments.size() >= 2)
             avg = (sum - lowest) / (assignments.size() - 1) * 0.4;
-        else
+        else if (assignments.size() > 0)
             avg = sum / assignments.size();
 
         sum = 0;
         for (double es : exams) {
             sum += es;
         }
-        avg += sum / exams.size() * 0.6;
+        if (exams.size() > 0)
+            avg += sum / exams.size() * 0.6;
         return avg;
     }
 }
